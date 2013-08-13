@@ -2,6 +2,8 @@ source "http://rubygems.org"
 
 gemspec :development_group => :test
 
+gem 'mongoid', :git => 'https://github.com/mongoid/mongoid.git'
+
 group :development do
   gem 'rake'
   gem 'pry', '~> 0.9.10'
